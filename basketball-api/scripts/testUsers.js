@@ -15,7 +15,7 @@ models.User.create({
   lastName: 'Blaushild',
   email: 'hello@hello.com'
 }).then(function(user){
-  console.log('whoopeee!!!! ' + user.firstName + ' has been created!');
+  console.log('whoppeee!!!!!!! ' + user.firstName + ' has been created!');
 }).catch(function(err){
   console.log(err);
 });
